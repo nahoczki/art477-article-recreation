@@ -1,0 +1,68 @@
+/* All CSS styles go here */
+
+/*
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Raleway', sans-serif;
+ */
+
+.container {
+
+    left: 0;
+    position: absolute;
+    padding: 20px;
+}
+
+.body-image {
+    position: sticky;
+    top: 10px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.85em;
+    line-height: 1.25em;
+}
+
+.source {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.85em;
+    line-height: 1.25em;
+    margin-bottom: 20px;
+}
+
+.body-image > img {
+    border-radius: 10px;
+}
+
+.header {
+    font-family: 'Playfair Display', serif;
+    font-size: 5em;
+}
+
+.quote {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+.body {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    line-height: 1.5rem;
+}
+
+.body-text {
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
